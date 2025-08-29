@@ -14,6 +14,7 @@ const schema = buildSchema(`
 
   type Contact {
     id: Int!
+    user_id: Int!
     name: String!
     email: String!
     phone: String!
